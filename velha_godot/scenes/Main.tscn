@@ -1,0 +1,80 @@
+[gd_scene load_steps=2 format=3 uid="uid://velha_main"]
+
+[ext_resource type="Script" path="res://scripts/Main.gd" id="1_main"]
+
+[node name="Main" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_main")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 440.0
+offset_bottom = 440.0
+columns = 3
+
+[node name="Celula0" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula1" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula2" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula3" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula4" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula5" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula6" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula7" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="Celula8" type="Button" parent="GridContainer"]
+custom_minimum_size = Vector2(130, 130)
+text = ""
+theme_override_font_sizes/font_size = 80
+
+[node name="LabelStatus" type="Label" parent="."]
+offset_left = 40.0
+offset_top = 460.0
+offset_right = 440.0
+offset_bottom = 510.0
+theme_override_font_sizes/font_size = 28
+horizontal_alignment = 1
+text = "Sua vez!"
+
+[node name="BotaoReiniciar" type="Button" parent="."]
+offset_left = 160.0
+offset_top = 525.0
+offset_right = 320.0
+offset_bottom = 565.0
+theme_override_font_sizes/font_size = 20
+text = "Reiniciar"
